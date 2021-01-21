@@ -1,0 +1,17 @@
+.idea/
+**/.classpath
+**/.project
+/.metadata/
+/RemoteSystemsTempFiles/
+/Servers/
+/build/
+
+.project
+.classpath
+.settings
+*/target/**
+*/bin/**
+*/.metadata/**
+*/RemoteSystemsTempFiles/**
+*/Servers/**
+*/build/**
