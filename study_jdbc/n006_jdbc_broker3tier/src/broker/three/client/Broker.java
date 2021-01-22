@@ -30,6 +30,13 @@ import broker.three.vo.StockRec;
 
 //인터페이스 implements 한 상태로 클래스 선언하자
 public class Broker implements ActionListener,ItemListener, Runnable{
+
+	public static void main(String args[])throws Exception {
+		Broker broker = new Broker();
+		Thread t = new Thread(broker);
+		t.start();
+	}
+
 	private static int mode = 0;
 	private static final int ADD_MODE = 1;
 	private static final int UPDATE_MODE = 2;
@@ -556,12 +563,6 @@ public class Broker implements ActionListener,ItemListener, Runnable{
 			sellTf.setText("");
 			System.out.println(0);
 		}
-	}
-	
-	public static void main(String args[])throws Exception {
-		Broker broker = new Broker();	
-		Thread t = new Thread(broker);
-		t.start();
 	}
 	
 	/*
