@@ -1,10 +1,4 @@
 package step07;
-//	WhiteBoard와 KostaEducation의 Hasing 관계를 설정.
-//	1. 필드에 선언 : KostaEducation
-//	2. WhiteBoard에 setXxxxx()를 만들어서 실제로 KostaEducation을 주입시켜야 한다.
-//	----> 이럴때만 Hasing 관계가 성립.
-//	----> Hasing 관계가 성립되면 WhiteBoard가 KostaEducation의 모든 구성요소
-//		  들을 사용할 수 있다.(값 할당 / 호출)
 
 class WhiteBoard{
 	double price;
@@ -13,10 +7,10 @@ class WhiteBoard{
 	
 	Education kosta;
 
-	public void setKosta(Education k){
+	public void setEdu(Education k){
 		kosta = k;
 	}
-	public Education getKosta(){
+	public Education getEdu(){
 		return kosta;
 	}
 

@@ -1,7 +1,7 @@
 package step02;
 
 /**
- * @Auth : chunkind
+ * @Auth : chunkind@naver.com
  * @Date : 2019. 10. 30.
  * main 함수 분리.
  */

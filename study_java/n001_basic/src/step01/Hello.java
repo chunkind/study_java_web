@@ -1,7 +1,7 @@
 package step01;
 
 /**
- * @Auth chunkind
+ * @Auth chunkind@naver.com
  * @Date 2019. 1. 7.
  * 아래 코드는 자바가 아니다.
  * 문법만 자바의 형식에 맞게 작성했을뿐,

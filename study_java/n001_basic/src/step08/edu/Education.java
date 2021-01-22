@@ -2,7 +2,7 @@ package step08.edu;
 
 import step08.person.Student;
 
-public class KostaEdu{
+public class Education {
 	String address;
 	int classNum;
 	Student student;
@@ -10,7 +10,7 @@ public class KostaEdu{
 	public void setStudent(Student stu){
 		student = stu;
 	}
-	public void setKosta(String addr, int cn, Student stu){
+	public void setEcucation(String addr, int cn, Student stu){
 		address = addr;
 		classNum = cn;
 		student = stu;

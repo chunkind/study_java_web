@@ -1,5 +1,13 @@
 package step05;
 
+/**
+ * @Auth chunkind@naver.com
+ * @Date 2021. 01. 22.
+ *
+ * class의 구성요소 :
+ * Filed / Method 로만 구성
+ *
+ */
 class PersonAppTest3{
 	public static void main(String[] args)	{
 		System.out.println("--------------- Person의 정보들을 출력 -------------------");
